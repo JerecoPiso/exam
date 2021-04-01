@@ -1,0 +1,228 @@
+	   .nav-link{
+		padding: 10px;
+		color: white;	
+
+	}
+	.nav-link:hover{
+		
+		color:white	;
+	}
+	.header	{
+		background-color: dodgerblue;
+		height: auto;
+	}
+	.fa{
+		font-size: 20px;
+		margin-right: 7px;	
+	}
+	th, transition-duration: {
+		text-align: center;
+	}
+	.card{
+		max-height: 480px;
+		overflow:scroll;
+	}
+	.dropdown-toggle{
+        color: white;	
+	}
+	
+	/*dropdown when dp has been click*/
+	.dp-menu{
+		margin-right: 20px;
+		max-width: 100%;
+	}
+
+	.dropdown-toggle{
+		width: 10%;
+		float: right;
+		color: dodgerblue;
+
+	}
+	/*sidenavbar*/
+	.side-nav{
+		background-color: dodgerblue;
+	}
+	/* dp in the right top of the page*/
+	.img{
+		border-radius: 50%;
+		max-width: 100%;
+		float: right;	
+	}
+	/* date */
+	#time{
+		color: white;
+	}
+	/*table th and td to be centered*/
+	th,td{
+		text-align: center;
+	}
+
+	.dropdown-item:hover{
+		background-color: dodgerblue;
+		color:white	;
+	}
+	/*for tablets */
+	@media(min-width: 768px){
+	
+	    .fa-bars{
+			display: none;
+		}
+		.img{
+			display: block;
+	    }
+
+		.col-md-3{
+			height: 100px;
+			
+		 }
+	}
+	/* for laptops */
+	 @media(min-width: 992px){
+
+        .fa-bars{
+		display: none;
+	  }
+	    .col-md-3{
+		height: 100vh;
+		
+    	}
+	}
+	/* for desktops */
+	@media(min-width: 1200px){
+	 
+      .fa-bars{
+		display: none;
+	   }
+	  .img{
+		display: block;
+	   }
+	  .col-md-3{
+		height: 100vh;
+
+	  }
+	}
+    /* clickable bars only visible when screen is less than 768px*/
+	.bars{
+		background-color: dodgerblue;
+		color: rgb(255,255,255);
+		border: none;float: right;
+	}
+
+	.card-title{
+		color: rgb(255,255,255);
+		font-size: 160%;
+		float: left;
+		letter-spacing: 3px;
+		font-weight: bolder;
+		
+	}
+	.cards{
+		
+		margin-left: 2%;
+	    float: right;
+		font-size: 1000px;
+		opacity: 0.4;
+
+	}
+	.add{
+		background-color: white;
+	}
+	.review-card{
+		margin-left: 0.5%;
+		margin-right: 2%;
+	}
+	.nav-item:hover{
+		background-color: rgba(190,210,230,0.5);
+		padding-right: 5px;
+		padding-left: 5px;
+		border-radius: 2rem;
+
+	}
+	#grade-sec:hover{
+	
+		font-size: 15px;
+	}
+	footer{
+		height: 70px;
+		padding-top: 1%;
+		width: 100%;
+		left: 16%;
+		text-align: center;
+		color: rgb(0,0,0);
+		letter-spacing: 3px;
+		font-size: 150%;
+		background-color: rgba(200,200,200,0.6);
+	}
+	/*title of the page */
+	.x{
+		font-size: 150%;
+		color: rgb(0,0,0);
+		cursor: pointer;
+
+	}
+	/* @ admin dashboard only total of every table in database*/
+	.total{
+		font-size: 15px;
+	}
+	/* button check all to delete */
+	.check-all{
+		background-color: rgb(200,200,190);
+		width: 170px;
+		padding: 0.5%;
+		font-weight: bold;
+		letter-spacing: 3px;
+		border-radius: 2rem;
+		float: left;
+	}
+	/* button delete all to delete */
+	.delete-all{
+		background-color: rgba(255,0,0,0.8);
+		width: 200px;
+		padding: 0.5%;
+		font-weight: bold;
+		letter-spacing: 3px;
+		border-radius: 2rem;
+		float: left;
+		color: rgb(255,255,255);
+		border: 0px;
+	
+	}
+	
+	#check-all{
+	 	border: 0px;
+	    width: 30%;
+	    height: 1.3em;
+	    float: left;
+	}
+	#delet-all{
+	 	margin-left: 05;
+	    height: 1.3em;
+	  
+	   
+	}
+	.dropdown-menu{
+		margin-right: 20px;max-width: 100%;
+	}
+	.dropdown{
+		color: dodgerblue;
+	}
+	.drop-btn{
+		width: 10%;float: right;color: dodgerblue;
+	}
+	/* button uncheck all to delete */
+	.uncheck-all{
+		background-color: rgb(200,200,190);
+		width: 170px;
+		padding: 0.5%;
+		font-weight: bold;
+		letter-spacing: 3px;
+		border-radius: 2rem;
+		float: left;
+	}
+	
+	#uncheck-all{
+	 	border: 0px;
+	    width: 30%;
+	    height: 1.3em;
+	    float: left;
+	}

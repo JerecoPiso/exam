@@ -1,0 +1,138 @@
+.lis:hover{
+ 	background-color: rgba(200,210,255,0.6);
+ }
+ .lis{
+ 	font-weight: bold;
+ 	font-size: 16px;
+ 	text-transform: uppercase;
+
+ }
+  .list-group-item{
+ 	letter-spacing: 2px;
+
+ }.header{
+	 	background-color: dodgerblue;
+	 }
+	
+	
+   a{
+   	text-decoration: none;
+   }
+   @media(max-width: 760px){
+
+   		 .list-group{
+    		width: 100%;
+ 	   }
+ 	   .footer{
+ 	   	   height: 90px; 
+		   width: 100%;
+		   background-color: dodgerblue;
+		   color: white;
+		   text-align: center;
+		   margin-top: 5%;
+ 	   }
+    
+   }
+    @media(min-width: 760px){
+
+   		 .list-group{
+    		width: 100%;
+ 	   }
+ 	   .footer{
+ 	   	   height: 90px; 
+		   width: 100%;
+		   background-color: dodgerblue;
+		   color: white;
+		   text-align: center;
+		   margin-top: 5%;
+ 	   }
+    
+   }
+   @media(min-width: 1200px){
+
+	    .list-group{
+	    	width: 100%;
+	   }
+	    .footer {
+		   height: 90px; 
+		   width: 100%;
+		   background-color: dodgerblue;
+		   color: white;
+		   text-align: center;
+		   margin-top: 5%;
+		   position: fixed;
+		   bottom: 0;
+		   left: 0;
+	}
+   }
+    @media(min-width: 992px){
+
+	    .list-group{
+	    	width: 100%;
+	   }
+	    .footer {
+		   height: 90px; 
+		   width: 100%;
+		   background-color: dodgerblue;
+		   color: white;
+		   text-align: center;
+		   margin-top: 5%;
+		   position: fixed;
+		   bottom: 0;
+		   left: 0;
+	}
+   }
+   
+	  .fa{
+	  	font-size: 120%;
+	  	margin-right: 3px;
+
+	  }
+	.dropbtn {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px;
+	  font-size: 16px;
+	
+	}
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 180px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 10px 12px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	.dropdown-content .dropdown-links:hover {
+		background-color: dodgerblue;
+		color: white;
+	}
+	.dropdown-links{
+		border: none;background-color: transparent;
+		width: 100%;
+		padding: 8px;
+		text-align: left;
+	}
+
+	.dropdown:hover .dropdown-content {display: block;}
+
+	.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+	.nav-item > .nav-link:hover{
+		background-color:  rgba(200,210,255,0.4);
+	} 

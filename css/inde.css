@@ -1,0 +1,38 @@
+    .header{
+	 	background-color: dodgerblue;
+	 }
+	 .title{
+	 	padding-bottom: 30px;
+	 	padding-top: 30px;
+	 	color: white	;
+	 }
+	 .footer {
+	   height: 90px; 
+	   width: 100%;
+	   background-color: dodgerblue;
+	   color: white;
+	   text-align: center;
+	   margin-top: 5%;
+	}
+
+    #alert{
+    	border-radius: 2rem;
+    	display: none;
+    	padding: 1%;
+    	width: 80%;
+    	display: block;
+    	margin: auto;
+
+    }
+    #signup{
+    	width: 80%;
+    	margin-left: 8%;
+    	margin-top: 5%;
+        border-radius: 2rem;
+
+
+    }
+    #login_button{
+    	margin-left: 3%;
+    	margin-top: 2%;
+    }

@@ -1,0 +1,39 @@
+ .header{
+	 	background-color: dodgerblue;
+	 }
+	 .title{
+	 	padding-bottom: 30px;
+	 	padding-top: 30px;
+	 	color: white	;
+	 }
+	 .footer {
+	   height: 90px; 
+	   width: 100%;
+	   background-color: dodgerblue;
+	   color: white;
+	   text-align: center;
+	   margin-top: 5%;
+	}
+	
+    #alert{
+    	border-radius: 2rem;
+    	display: none;
+
+    }
+    form{
+    	width: 70%;
+    	margin-left: 9%;
+    }
+    input::-webkit-input-placeholder {
+   	   font-size: 12px;
+   
+	}
+	  #login{
+	    width: 100%;
+	  }
+		label{
+	    font-weight: bold;
+	  }
+	  span{
+	    color: red;
+	  }

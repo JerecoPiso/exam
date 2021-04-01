@@ -1,0 +1,22 @@
+
+	@media(max-width: 768px){
+       .img{
+       	display: none;
+       }
+       .navbar-nav{
+       	display: none;
+       }
+       #time{
+       	display: none;
+       }
+
+	}
+	.question{
+		background-color: rgba(200,200,200,0.6);
+		margin-right: 3.5%;
+		margin-left: 2%;
+		padding: 1%;
+		margin-top: 1%;
+		border-radius: 1rem;
+	}
+	

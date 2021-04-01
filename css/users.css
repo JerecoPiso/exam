@@ -1,0 +1,27 @@
+	@media(max-width: 768px){
+       .img{
+       	display: none;
+       }
+       .navbar-nav{
+       	display: none;
+       }
+       #time{
+		display: none;
+	}
+
+
+	}
+	
+
+	.users-list{
+		background-color: rgba(200,200,200,0.6);
+		margin-right: 3.5%;
+		margin-left: 1.5%;
+		padding: 1%;
+		margin-top: 1%;
+		border-radius: 1rem;
+	}
+	
+	.total{
+		font-size: 15px;
+	}
