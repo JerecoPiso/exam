@@ -26,7 +26,7 @@
 
 
     	      		<div class="subjects-list">
-                    	 <span class="fa fa-tasks" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;Subjects List</span><span class="pull-right x">&times;</span>
+                    	 <span class="fa fa-tasks" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;Subjects List</span><span class="pull-right x" style="float: right">&times;</span>
                     </div>
 
                       <div class="container-fluid" style="margin-top: 20px;">
@@ -70,7 +70,7 @@
 														<td>
 
 															<div class="btn-group">
-															<button type="button" class="btn btn-warning" id="sub_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-pencil"></span></button><button type="button" class = "btn btn-danger" id="sub_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
+															<button type="button" class="btn btn-warning" id="sub_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-edit"></span></button><button type="button" class = "btn btn-danger" id="sub_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
 															<input type="hidden" id="subj<?php echo $fetch['id']?>" value="<?php echo $fetch['subject']?>">
 															<input type="hidden" id="grasection<?php echo $fetch['id']?>" value="<?php echo $fetch['grasec']?>">
 													</tr>

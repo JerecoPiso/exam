@@ -42,7 +42,7 @@ $(document).ready(function(){
     	      <div class="col-lg-10 col-md-9">
 
     	      		<div class="users-list">
-                    	 <span class="fa fa-vcard" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Users List</span><span class="pull-right x">&times;</span>
+                    	 <span class="fa fa-vcard" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Users List</span><span class="pull-right x" style="float: right">&times;</span>
                     </div>
 
                       <div class="container-fluid" style="margin-top: 20px;">

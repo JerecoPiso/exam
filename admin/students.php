@@ -28,7 +28,7 @@
 
 
     	      		<div class="subjects-list">
-                    	 <span class="fa fa-tasks" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Students List</span><span class="pull-right x">&times;</span>
+                    	 <span class="fa fa-tasks" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Students List</span><span class="pull-right x" style="float: right;">&times;</span>
                     </div>
 
                       <div class="container-fluid" style="margin-top: 20px;">
@@ -72,7 +72,7 @@
 														<td>
 
 															<div class="btn-group">
-															<button type="button" class="btn btn-warning" id="stud_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-pencil"></span></button><button type="button" class = "btn btn-danger" id="stud_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
+															<button type="button" class="btn btn-warning" id="stud_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-edit"></span></button><button type="button" class = "btn btn-danger" id="stud_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
 															<input type="hidden" id="name<?php echo $fetch['id']?>" value="<?php echo $fetch['username']?>">
 															<input type="hidden" id="grade_sec<?php echo $fetch['id']?>" value="<?php echo $fetch['grade_section']?>">
 															<input type="hidden" id="adviser<?php echo $fetch['id']?>" value="<?php echo $fetch['adviser']?>">

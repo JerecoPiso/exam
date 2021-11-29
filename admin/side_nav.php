@@ -30,10 +30,7 @@
 						     <a href="exam_results.php" class="nav-link"><span class="fa fa-check"  style="margin-right: 13px;"></span>Exam Results</a>
                		 
 						    </li>
-						      <li class="nav-item">
-						     <a href="general_settings.php" class="nav-link"><span class="fa fa-gears"  style="margin-right: 11px;"></span>Settings</a>
-               		 
-						    </li>
+						    
 						    
 						  </ul>
 				</nav>

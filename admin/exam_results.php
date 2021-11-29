@@ -32,7 +32,7 @@ include("id_checker.php"); ?>
      <div class="col-lg-10 col-md-9">
 
           <div class="question">
-                <span class="fa fa-question" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;Exam Results</span><span class="pull-right x">&times;</span>
+                <span class="fa fa-question" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;Exam Results</span><span class="pull-right x" style="float: right;">&times;</span>
            </div>
  
       <div class="container-fluid" style="margin-top: 20px;">

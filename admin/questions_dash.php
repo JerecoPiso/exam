@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 //redirect to loign page if id is not set
 include("id_checker.php"); ?>
 
@@ -32,7 +32,7 @@ include("id_checker.php"); ?>
      <div class="col-lg-10 col-md-9">
 
           <div class="question">
-                <span class="fa fa-question" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;Questions</span><span class="pull-right x">&times;</span>
+                <span class="fa fa-question" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;Questions</span><span class="pull-right x" style="float: right;">&times;</span>
            </div>
  
       <div class="container-fluid" style="margin-top: 20px;">
@@ -90,7 +90,7 @@ include("id_checker.php"); ?>
 
 									<td>
 										<div class="btn-group">
-											<button type="button" class="btn btn-warning" id="edit_ques" value="<?php echo $fetch['id']?>"><span class = "fa fa-pencil"></span></button>
+											<button type="button" class="btn btn-warning" id="edit_ques" value="<?php echo $fetch['id']?>"><span class = "fa fa-edit"></span></button>
 											<button type="button" class = "btn btn-danger" id="del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button>
 										</div>
 															

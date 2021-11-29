@@ -175,6 +175,19 @@
 				return $result;
 			}
 		}
+
+
+
+		public function try($sql){
+
+			$stmt = $this->conn->prepare($sql) or die($this->conn->error);
+			if($stmt->execute()){
+				$result = $stmt->get_result();
+				$stmt->close();
+				//	$this->conn->close();
+				return $result;
+			}
+		}
 		
 
 		public function read_answer($id,$sql){

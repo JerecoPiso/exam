@@ -5,10 +5,10 @@
 <head>
 	 <?php include("links.php");?>
 	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/grade_section.css">
 </head>  
-<style type="text/css">
-	
-</style>
+
 <script type="text/javascript">
 $(document).ready(function(){
 
@@ -35,7 +35,9 @@ $(document).ready(function(){
     	    </div>
 
     	      <div class="col-lg-10 col-md-9">
-
+	    	     <div class="question">
+	                <span class="fa fa-building" style="font-size: 200%;">&nbsp;&nbsp;&nbsp; Grade and Section</span><span class="pull-right x" style="float: right;">&times;</span>
+	           </div>
                     <button id="add-grade">Add Grade&Section <span class="fa fa-plus"></span></button>
                     	<h6 class="alert alert-info mt-4 mr-4 text-center" id="alert" style="float: right;width: 30%;border-radius: 2rem;display: none;"></h6>
                   
@@ -91,7 +93,7 @@ $(document).ready(function(){
 														<td>
 
 															<div class="btn-group">
-															<button type="button" class="btn btn-warning" id="grasec_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-pencil"></span></button><button type="button" class = "btn btn-danger" id="grasec_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
+															<button type="button" class="btn btn-warning" id="grasec_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-edit"></span></button><button type="button" class = "btn btn-danger" id="grasec_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
 															<input type="hidden" id="name<?php echo $fetch['id']?>" value="<?php echo $fetch['grade_sec']?>">
 														
 													</tr>
@@ -141,9 +143,10 @@ $(document).ready(function(){
 
 <?php include("logout_modal.php"); ?>
 
-<link rel="stylesheet" type="text/css" href="../css/css.css">
-<link rel="stylesheet" type="text/css" href="../css/grade_section.css">
+
 <script type="text/javascript" src="../js/grade_section.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/question_dash.css">
+
 <script type="text/javascript" src="../js/main.js"></script>
 <script type="text/javascript" src="../js/dataTables.js"></script>
 

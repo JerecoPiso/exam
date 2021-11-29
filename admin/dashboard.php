@@ -71,7 +71,7 @@ $(document).ready(function(){
     	      <div class="col-lg-10 col-md-9">
 
                     <div class="admin-dashboard">
-                    	 <span class="fa fa-television" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Admin Dashboard</span><span class="pull-right x">&times;</span>
+                    	 <span class="fa fa-television" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Admin Dashboard</span><span class="pull-right x" style="float: right;">&times;</span>
                     </div>
 						    <div class="row mt-4 review-card">
 								
@@ -178,15 +178,15 @@ $(document).ready(function(){
 											<div class="card" style="overflow: hidden;">
 
 											<div class="card-header">
-												 <h6 class="card-title">Subjects<br><span class="total">
-												  <?php   //require "class.php";
+												 <h6 class="card-title">Section<br><span class="total">  <?php   //require "class.php";
                                                           
-                                                             $conn = new db_class();
-                                                             $sql="SELECT * FROM subjects";
+                                                            // $conn = new db_class();
+                                                             $sql="SELECT * FROM grade_section";
                                                              $ret = $conn->count($sql);
                                                              echo $ret;
 
-                                                     ?></span></h6> <h5 class="fa fa-book cards" style="font-size: 350%;"></h5>
+                                                     ?>
+												 </span></h6> <h5 class="fa fa-building cards" style="font-size: 350%;"></h5>
 											</div>
                                           
 											
@@ -200,7 +200,16 @@ $(document).ready(function(){
 											<div class="card" style="overflow: hidden;">
 
 											<div class="card-header">
-											 <h6 class="card-title">Inbox<br><span class="total">100</span></h6><h5 class="fa fa-envelope cards" style="font-size: 350%;"></h5>
+											 <h6 class="card-title">Advisers<br><span class="total">
+											 	<?php   //require "class.php";
+                                                          
+                                                            // $conn = new db_class();
+                                                             $sql="SELECT * FROM advisers";
+                                                             $ret = $conn->count($sql);
+                                                             echo $ret;
+
+                                                     ?>
+											 </span></h6><h5 class="fa fa-users cards" style="font-size: 350%;"></h5>
 											</div>
                                            
 										</div>

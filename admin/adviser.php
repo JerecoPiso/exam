@@ -26,7 +26,7 @@
    	<div class="col-lg-10 col-md-9">
 
       <div class="adviser-dashboard">
-          <span class="fa fa-users" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Advisers</span><span class="pull-right x">&times;</span>
+          <span class="fa fa-users" style="font-size: 200%;">&nbsp;&nbsp;&nbsp;	Advisers</span><span class="pull-right x" style="float: right;">&times;</span>
       </div>
 
           <button id="add-adviser">Add Adviser <span class="fa fa-plus"></span></button>
@@ -129,7 +129,7 @@
 					<td>
 
 					  <div class="btn-group">
-							<button type="button" class="btn btn-warning" id="adviser_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-pencil"></span></button>
+							<button type="button" class="btn btn-warning" id="adviser_up" value="<?php echo $fetch['id']?>"><span class = "fa fa-edit"></span></button>
 							<button type="button" class = "btn btn-danger" id="adviser_del" value="<?php echo $fetch['id']?>"><span class = "fa fa-trash"></span></button></div></td>
 							<input type="hidden" id="name<?php echo $fetch['id']?>" value="<?php echo $fetch['name']?>">
 							<input type="hidden" id="sec<?php echo $fetch['id']?>" value="<?php echo $fetch['section']?>">

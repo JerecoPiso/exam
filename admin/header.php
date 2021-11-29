@@ -1,7 +1,7 @@
 
 	<div class="container-fluid header">
 
-		<div class="row">
+		<div class="row pb-2">
              
              <div class="col-lg-4 d-flex">
 
@@ -11,17 +11,6 @@
 
              <div class="col-lg-4">
 
-				   <div class="input-group pt-2 pb-2">
-
-					    <input type="text" class="form-control" placeholder="Search...">
-
-					    <div class="input-group-append">
-
-					      <span class="input-group-text fa fa-search"></span>
-
-					    </div>
-
-				  </div>
 
              </div>
 
@@ -34,7 +23,7 @@
 						    </a>
 
 						   <div class="dropdown-menu dp-menu" style="">
-						      <a class="dropdown-item" href="#"><span class="fa fa-gear"></span>Account Settings</a>
+						    <!--   <a class="dropdown-item" href="#"><span class="fa fa-gear"></span>Account Settings</a> -->
 						      <a class="dropdown-item" href="#logout" data-toggle="modal"><span class="fa fa-sign-in"></span>Logout</a>
 						   </div>
 				    </div>

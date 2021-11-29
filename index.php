@@ -7,9 +7,9 @@
 		  <script src="js/jquery.js"></script>
 		  <script src="js/popper.js"></script>
 		  <script src="js/bootstrap.js"></script>
-		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href="css/inde.css">
-  <!--      <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.css"> -->
+<!-- 		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+       <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.css">
 
 	<title>Online Examination System</title>
 
